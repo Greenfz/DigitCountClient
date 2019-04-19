@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b85dd6d-e3d2-461f-9447-dbecdc9b722d" name="Default Changelist" comment="" />
+    <list default="true" id="2b85dd6d-e3d2-461f-9447-dbecdc9b722d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$obliczClientListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$obliczClientListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/ClientGUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/ClientGUI$ButtonResetListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/ClientGUI$RadioButton1ActionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/ClientGUI$RadioButton2ActionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/ClientGUI$buttonObliczListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/ClientGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ClientGUI.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,32 +24,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1029">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="343">
+              <caret line="196" column="66" selection-start-line="196" selection-start-column="66" selection-end-line="196" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#sendObject#0;class#Client#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/ClientGUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2373">
-              <caret line="178" column="99" lean-forward="true" selection-start-line="178" selection-start-column="99" selection-end-line="178" selection-end-column="99" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1939#2135#1" />
-                <element signature="class#RadioButton1ActionListener#0;class#PierwszeGUI#0;class#ClientGUI#0" />
-                <element signature="class#RadioButton2ActionListener#0;class#PierwszeGUI#0;class#ClientGUI#0" />
-                <element signature="class#ButtonResetListener#0;class#ClientGUI#0" />
-                <element signature="method#textAreaCleaner#0;class#ClientGUI#0" />
-                <element signature="method#areNotEmpty#0;class#ClientGUI#0" />
+                <element signature="method#createConnection#0;class#Client#0" />
+                <element signature="method#createGUI#0;class#Client#0" />
+                <element signature="e#4014#4230#1" />
+                <element signature="e#5878#6137#0" />
+                <element signature="e#6146#6414#0" />
+                <element signature="class#obliczClientListener#0;class#Client#0" />
+                <element signature="method#actionPerformed#0;class#obliczClientListener#0;class#Client#0" />
+                <element signature="e#6424#6620#0" />
+                <element signature="e#7676#7834#0" />
+                <element signature="e#7843#8035#0" />
+                <element signature="e#8044#8188#0" />
               </folding>
             </state>
           </provider>
@@ -46,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/ProblemObject.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="702">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#224#225#0" expanded="true" />
                 <element signature="e#268#269#0" expanded="true" />
@@ -70,6 +75,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>textField</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>clientGUI.textField</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -87,6 +103,7 @@
     <option name="width" value="1612" />
     <option name="height" value="876" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -119,7 +136,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555678866580" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555682808541" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/libFX/javafx-sdk-11.0.2/lib/javafx-swt.jar!/" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -179,15 +196,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2503209" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24967907" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5006418" side_tool="true" weight="0.3164557" />
       <window_info anchor="bottom" id="Messages" weight="0.32911393" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3164557" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49935815" visible="true" weight="0.3164557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -231,23 +248,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/ProblemObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -269,29 +269,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/ProblemObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1029">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="702">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#sendObject#0;class#Client#0" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/ClientGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2373">
-          <caret line="178" column="99" lean-forward="true" selection-start-line="178" selection-start-column="99" selection-end-line="178" selection-end-column="99" />
+        <state relative-caret-position="231">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1939#2135#1" />
-            <element signature="class#RadioButton1ActionListener#0;class#PierwszeGUI#0;class#ClientGUI#0" />
-            <element signature="class#RadioButton2ActionListener#0;class#PierwszeGUI#0;class#ClientGUI#0" />
-            <element signature="class#ButtonResetListener#0;class#ClientGUI#0" />
-            <element signature="method#textAreaCleaner#0;class#ClientGUI#0" />
-            <element signature="method#areNotEmpty#0;class#ClientGUI#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="196" column="66" selection-start-line="196" selection-start-column="66" selection-end-line="196" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#createConnection#0;class#Client#0" />
+            <element signature="method#createGUI#0;class#Client#0" />
+            <element signature="e#4014#4230#1" />
+            <element signature="e#5878#6137#0" />
+            <element signature="e#6146#6414#0" />
+            <element signature="class#obliczClientListener#0;class#Client#0" />
+            <element signature="method#actionPerformed#0;class#obliczClientListener#0;class#Client#0" />
+            <element signature="e#6424#6620#0" />
+            <element signature="e#7676#7834#0" />
+            <element signature="e#7843#8035#0" />
+            <element signature="e#8044#8188#0" />
           </folding>
         </state>
       </provider>
