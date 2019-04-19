@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b85dd6d-e3d2-461f-9447-dbecdc9b722d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$obliczClientListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$obliczClientListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/ClientGUI$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/ClientGUI$ButtonResetListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/ClientGUI$RadioButton1ActionListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/ClientGUI$RadioButton2ActionListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/ClientGUI$buttonObliczListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/ClientGUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ClientGUI.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="196" column="66" selection-start-line="196" selection-start-column="66" selection-end-line="196" selection-end-column="66" />
+            <state relative-caret-position="1029">
+              <caret line="183" column="63" selection-start-line="183" selection-start-column="63" selection-end-line="183" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#createConnection#0;class#Client#0" />
@@ -39,6 +28,7 @@
                 <element signature="class#obliczClientListener#0;class#Client#0" />
                 <element signature="method#actionPerformed#0;class#obliczClientListener#0;class#Client#0" />
                 <element signature="e#6424#6620#0" />
+                <element signature="class#buttonObliczListener#0;class#Client#0" />
                 <element signature="e#7676#7834#0" />
                 <element signature="e#7843#8035#0" />
                 <element signature="e#8044#8188#0" />
@@ -136,7 +126,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555682808541" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555683221247" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/libFX/javafx-sdk-11.0.2/lib/javafx-swt.jar!/" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -185,6 +175,14 @@
       <option name="presentableId" value="Default" />
       <updated>1555600734327</updated>
     </task>
+    <task id="LOCAL-00001" summary="W jednej klasie">
+      <created>1555682873585</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555682873585</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -198,13 +196,13 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24967907" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32911393" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5006418" side_tool="true" weight="0.3164557" />
       <window_info anchor="bottom" id="Messages" weight="0.32911393" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49935815" visible="true" weight="0.3164557" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49935815" weight="0.3164557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -246,6 +244,10 @@
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="W jednej klasie" />
+    <option name="LAST_COMMIT_MESSAGE" value="W jednej klasie" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
@@ -298,8 +300,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="196" column="66" selection-start-line="196" selection-start-column="66" selection-end-line="196" selection-end-column="66" />
+        <state relative-caret-position="1029">
+          <caret line="183" column="63" selection-start-line="183" selection-start-column="63" selection-end-line="183" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#createConnection#0;class#Client#0" />
@@ -310,6 +312,7 @@
             <element signature="class#obliczClientListener#0;class#Client#0" />
             <element signature="method#actionPerformed#0;class#obliczClientListener#0;class#Client#0" />
             <element signature="e#6424#6620#0" />
+            <element signature="class#buttonObliczListener#0;class#Client#0" />
             <element signature="e#7676#7834#0" />
             <element signature="e#7843#8035#0" />
             <element signature="e#8044#8188#0" />
