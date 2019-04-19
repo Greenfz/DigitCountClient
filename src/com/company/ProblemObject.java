@@ -9,6 +9,22 @@ public class ProblemObject implements Serializable {
     private int digitToCheck;
     private boolean allDigits = false;
 
+    public int getUpperBound() {
+        return upperBound;
+    }
+
+    public int getLowerBound() {
+        return lowerBound;
+    }
+
+    public int getDigitToCheck() {
+        return digitToCheck;
+    }
+
+    public boolean isAllDigits() {
+        return allDigits;
+    }
+
     public void setUpperBound(int upperBound) {
         this.upperBound = upperBound;
     }
@@ -32,6 +48,5 @@ public class ProblemObject implements Serializable {
                 "\n lowerBound=" + lowerBound +
                 "\n digitToCheck=" + digitToCheck +
                 "\n allDigits=" + allDigits;
-
     }
 }

@@ -38,7 +38,7 @@ public class Client {
     client.createGUI();
     client.createConnection();
     }
-
+// CONNECTON
     public void createConnection(){
         try {
             socket = new Socket("localhost", 5555);
@@ -57,7 +57,7 @@ public class Client {
         }
 
     }
-
+// GUI
     public void createGUI() {
 // FAME AND NUMBERFORMATTERS
         ramka = new JFrame();
@@ -126,7 +126,11 @@ public class Client {
         button1.addActionListener(new buttonObliczListener());
 
         odebrane = new JTextArea(10, 30);
-        odebrane.setEditable(false);
+        odebrane.setEditable(true);
+        odebrane.setLineWrap(true);
+        odebrane.setWrapStyleWord(true);
+        odebrane.setFont(new Font("Futura", Font.BOLD, 15));
+
 
         panelDolny.add(button1);
         panelDolny.add(odebrane);
@@ -156,28 +160,6 @@ public class Client {
             radioButton2.setSelected(true);
             radioButton1.setSelected(false);
 
-        }
-    }
-    public class obliczClientListener implements ActionListener{
-        @Override
-
-        public void actionPerformed(ActionEvent e) {
-            if (areNotEmpty()){
-                if (firstIsLower()){
-                    JOptionPane.showMessageDialog(ramka, "Dolna granica powinna byc mniejsza od gornej");
-                } else {
-                    objectClient = new ProblemObject();
-                    objectClient.setUpperBound(Integer.parseInt(textField1.getText()));
-                    objectClient.setLowerBound(Integer.parseInt(textField2.getText()));
-                    objectClient.setDigitToCheck(Integer.parseInt(textField3.getText()));
-                    if(radioButton1.isSelected()) objectClient.setAllDigits(true);
-                    if(radioButton2.isSelected()) objectClient.setAllDigits(false);
-                    //System.out.println(objectClient.toString());
-                }
-
-            } else {
-                JOptionPane.showMessageDialog(ramka, "Wszystkie pola muszą zostać uzupełnione");
-            }
         }
     }
     public class ButtonResetListener implements ActionListener{

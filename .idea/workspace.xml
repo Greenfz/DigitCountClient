@@ -3,13 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="2b85dd6d-e3d2-461f-9447-dbecdc9b722d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$ButtonResetListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$ButtonResetListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$RadioButton1ActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$RadioButton1ActionListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$RadioButton2ActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$RadioButton2ActionListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$Wysylacz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$Wysylacz.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$buttonObliczListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$buttonObliczListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$obliczClientListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$obliczClientListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$obliczClientListener.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/ProblemObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/ProblemObject.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/ProblemObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ProblemObject.java" afterDir="false" />
     </list>
@@ -25,21 +26,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="641">
-              <caret line="226" column="45" selection-start-line="226" selection-start-column="45" selection-end-line="226" selection-end-column="45" />
+            <state relative-caret-position="21">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#createConnection#0;class#Client#0" />
-                <element signature="method#createGUI#0;class#Client#0" />
                 <element signature="e#4014#4230#1" />
                 <element signature="e#5878#6137#0" />
                 <element signature="e#6146#6414#0" />
-                <element signature="class#obliczClientListener#0;class#Client#0" />
-                <element signature="method#actionPerformed#0;class#obliczClientListener#0;class#Client#0" />
                 <element signature="e#6424#6620#0" />
                 <element signature="class#buttonObliczListener#0;class#Client#0" />
                 <element signature="e#7676#7834#0" />
                 <element signature="e#7843#8035#0" />
+                <element signature="e#8044#8188#0" />
                 <element signature="class#wysylacz#0;class#Client#0" />
               </folding>
             </state>
@@ -49,18 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/ProblemObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-              <folding>
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="431">
+              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -135,11 +124,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555700941299" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555715940238" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/libFX/javafx-sdk-11.0.2/lib/javafx-swt.jar!/" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -203,7 +197,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24967907" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24967907" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" weight="0.32911393" />
       <window_info anchor="bottom" id="Terminal" />
@@ -211,7 +205,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32911393" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49935815" weight="0.3164557" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49935815" visible="true" weight="0.3164557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -292,38 +286,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/ProblemObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-          <folding>
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="431">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-11.0.2/lib/src.zip!/java.desktop/java/awt/Font.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="232" column="13" selection-start-line="232" selection-start-column="13" selection-end-line="232" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-11.0.2/lib/src.zip!/java.desktop/javax/swing/JTextArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="629" column="26" lean-forward="true" selection-start-line="629" selection-start-column="26" selection-end-line="629" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="226" column="45" selection-start-line="226" selection-start-column="45" selection-end-line="226" selection-end-column="45" />
+        <state relative-caret-position="21">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#createConnection#0;class#Client#0" />
-            <element signature="method#createGUI#0;class#Client#0" />
             <element signature="e#4014#4230#1" />
             <element signature="e#5878#6137#0" />
             <element signature="e#6146#6414#0" />
-            <element signature="class#obliczClientListener#0;class#Client#0" />
-            <element signature="method#actionPerformed#0;class#obliczClientListener#0;class#Client#0" />
             <element signature="e#6424#6620#0" />
             <element signature="class#buttonObliczListener#0;class#Client#0" />
             <element signature="e#7676#7834#0" />
             <element signature="e#7843#8035#0" />
+            <element signature="e#8044#8188#0" />
             <element signature="class#wysylacz#0;class#Client#0" />
           </folding>
         </state>
