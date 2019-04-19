@@ -3,6 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="2b85dd6d-e3d2-461f-9447-dbecdc9b722d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$ButtonResetListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$ButtonResetListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$RadioButton1ActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$RadioButton1ActionListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$RadioButton2ActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$RadioButton2ActionListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$buttonObliczListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$buttonObliczListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$obliczClientListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client$obliczClientListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DigitCountClient/com/company/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ProblemObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ProblemObject.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1029">
-              <caret line="183" column="63" selection-start-line="183" selection-start-column="63" selection-end-line="183" selection-end-column="63" />
+            <state relative-caret-position="641">
+              <caret line="226" column="45" selection-start-line="226" selection-start-column="45" selection-end-line="226" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#createConnection#0;class#Client#0" />
@@ -31,7 +40,7 @@
                 <element signature="class#buttonObliczListener#0;class#Client#0" />
                 <element signature="e#7676#7834#0" />
                 <element signature="e#7843#8035#0" />
-                <element signature="e#8044#8188#0" />
+                <element signature="class#wysylacz#0;class#Client#0" />
               </folding>
             </state>
           </provider>
@@ -40,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/ProblemObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="324">
+              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
               <folding>
                 <element signature="e#224#225#0" expanded="true" />
                 <element signature="e#268#269#0" expanded="true" />
@@ -81,8 +90,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/ProblemObject.java" />
         <option value="$PROJECT_DIR$/src/ClientGUI.java" />
-        <option value="$PROJECT_DIR$/src/com/company/ProblemObject.java" />
         <option value="$PROJECT_DIR$/src/com/company/ClientGUI.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ProblemObject.java" />
         <option value="$PROJECT_DIR$/src/com/company/Client.java" />
       </list>
     </option>
@@ -126,7 +135,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555683221247" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555700941299" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/libFX/javafx-sdk-11.0.2/lib/javafx-swt.jar!/" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -194,7 +203,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24967907" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24967907" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" weight="0.32911393" />
       <window_info anchor="bottom" id="Terminal" />
@@ -271,10 +280,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ClientGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/ProblemObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="324">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
           <folding>
             <element signature="e#224#225#0" expanded="true" />
             <element signature="e#268#269#0" expanded="true" />
@@ -288,20 +307,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/ClientGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1029">
-          <caret line="183" column="63" selection-start-line="183" selection-start-column="63" selection-end-line="183" selection-end-column="63" />
+        <state relative-caret-position="641">
+          <caret line="226" column="45" selection-start-line="226" selection-start-column="45" selection-end-line="226" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#createConnection#0;class#Client#0" />
@@ -315,7 +324,7 @@
             <element signature="class#buttonObliczListener#0;class#Client#0" />
             <element signature="e#7676#7834#0" />
             <element signature="e#7843#8035#0" />
-            <element signature="e#8044#8188#0" />
+            <element signature="class#wysylacz#0;class#Client#0" />
           </folding>
         </state>
       </provider>

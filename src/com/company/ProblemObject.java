@@ -32,5 +32,6 @@ public class ProblemObject implements Serializable {
                 "\n lowerBound=" + lowerBound +
                 "\n digitToCheck=" + digitToCheck +
                 "\n allDigits=" + allDigits;
+
     }
 }
