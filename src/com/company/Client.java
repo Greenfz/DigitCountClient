@@ -39,15 +39,12 @@ public class Client {
     public void createConnection(){
         try {
             socket = new Socket("localhost", 5555);
-            System.out.println("utworzono socket");
         } catch (IOException e) {
             e.printStackTrace();
         }
         try {
             objOutStream = new ObjectOutputStream(socket.getOutputStream());
-            System.out.println("utworzono OutputStream");
             bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-            System.out.println("Utworzono BufferedReader");
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -188,7 +185,7 @@ public class Client {
                       objectClient.setDigitToCheck(Integer.parseInt(textField3.getText()));
                       if(radioButton1.isSelected()) objectClient.setAllDigits(true);
                       if(radioButton2.isSelected()) objectClient.setAllDigits(false);
-                      Thread watekClient = new Thread(new Wysylacz());
+                      Thread watekClient = new Thread(new SendObjectGetResult());
                       watekClient.start();
                     }
                 } else {
@@ -213,7 +210,7 @@ public class Client {
     }
 
 // THREADS
-    public class Wysylacz implements Runnable{
+    public class SendObjectGetResult implements Runnable{
     @Override
     public void run() {
         try {
