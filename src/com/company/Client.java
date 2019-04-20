@@ -141,16 +141,16 @@ public class Client {
         ramka.getContentPane().add(panelGorny);
         ramka.getContentPane().add(panelSrodkowy);
         ramka.getContentPane().add(panelDolny);
-//        ramka.addWindowListener(new WindowAdapter() {
-//            @Override
-//            public void windowClosing(WindowEvent e) {
-//                try {
-//                    socket.close();
-//                } catch (IOException e1) {
-//                    e1.printStackTrace();
-//                }
-//            }
-//        });
+        ramka.addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                try {
+                    socket.close();
+                } catch (IOException e1) {
+                    e1.printStackTrace();
+                }
+            }
+        });
     }
 
 // ALL LISTENERS
